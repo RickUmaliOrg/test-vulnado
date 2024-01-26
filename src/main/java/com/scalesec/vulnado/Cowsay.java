@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 
 public class Cowsay {
   public static String run(String input) {
+    String unusedVariable = "camelCase";
     ProcessBuilder processBuilder = new ProcessBuilder();
     String cmd = "/usr/games/cowsay '" + input + "'";
     System.out.println(cmd);
